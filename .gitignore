@@ -1,0 +1,40 @@
+
+# Maven build output
+**/target/
+
+# Maven wrapper generated files
+# Keep mvnw, mvnw.cmd and .mvn/wrapper in Git.
+# Do not ignore the Maven wrapper itself.
+
+# Java compiled files
+*.class
+
+# Logs
+*.log
+logs/
+
+# Spring Boot local configuration and secrets
+**/application-local.properties
+**/application-local.yml
+**/application-secret.properties
+**/application-secret.yml
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+logs/
